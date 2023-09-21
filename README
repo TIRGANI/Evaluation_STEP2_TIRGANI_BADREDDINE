@@ -1,0 +1,56 @@
+# Projet d'Évaluation - Étape 2 | Réalisé par Badreddine TIRGANI | Ingénieur d'Études et de Développement | https:/tirgani.me
+
+Ce projet est une application Java qui gère les employés et leurs salaires mensuels.
+
+## Structure du Projet
+
+Le projet est organisé comme suit :
+
+- `src/main/java/com/example/evaluation_step2/` : Contient le code source de l'application.
+  - `dao/` : Contient les interfaces pour l'accès aux données.
+  - `entity/` : Contient les classes d'entités (par exemple, Employé, Salaire, etc.).
+  - `service/` : Contient les classes de service qui implémentent la logique métier.
+
+## Détails des Packages
+
+### dao/
+
+Ce package contient les interfaces pour l'accès aux données.
+
+- `EmployeeDAO.java` : Interface pour la gestion des employés.
+- `EmployeeSalaireAnnuelDAO.java` : Interface pour la gestion des salaires annuels des employés.
+- `SalaireDAO.java` : Interface pour la gestion des salaires mensuels.
+
+### entity/
+
+Ce package contient les classes d'entités qui représentent les objets métier de l'application.
+
+- `Employee.java` : Représente un employé avec un identifiant, un nom et un prénom.
+- `EmployeeSalaireAnnuel.java` : Représente les informations sur le salaire annuel d'un employé.
+- `Salaire.java` : Représente un salaire mensuel avec un identifiant, une année, un mois et un montant.
+
+### service/
+
+Ce package contient les classes de service qui implémentent la logique métier.
+
+- `EmployeeDAOImpl.java` : Implémentation de l'interface EmployeDAO pour la gestion des employés.
+- `EmployeeSalaireAnnuelDAOImpl.java` : Implémentation de l'interface EmployeSalaireAnnuelDAO pour la gestion des salaires annuels.
+- `SalaireDAOImpl.java` : Implémentation de l'interface SalaireDAO pour la gestion des salaires mensuels.
+
+## Utilisation
+
+Pour exécuter l'application, utilisez la classe `EvaluationStep2Application` dans le package principal. Cette classe contient un exemple d'utilisation des DAO pour gérer les employés et les salaires.
+
+---
+
+## Documentation
+
+La documentation du code est générée à l'aide de Javadoc. Vous pouvez consulter le [javadoc](Evaluation_STEP2_TIRGANI_BADREDDINE/target/site/apidocs/index.html) pour plus de détails sur chaque service.
+
+---
+
+## Contact
+
+Pour toute question ou information supplémentaire, vous pouvez me contacter via mon [portfolio personnel](https://tirgani.me) | tel : 0602834831, Email :tirgani.badreddine96@gmail.com ou par linkedIn  : https://www.linkedin.com/in/tirgani-badreddine/.
+
+N'hésitez pas à apporter des modifications supplémentaires si nécessaire. Si vous avez d'autres questions ou demandes, n'hésitez pas à les partager !
